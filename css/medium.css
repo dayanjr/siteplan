@@ -1,0 +1,16 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+        nav ul {
+            display: flex;
+            margin-left: 2%;
+        }
+    
+    
+        nav ul li a{padding: .5rem 1rem;}
+        header h1{
+            margin-left: 40px;
+        } 
+        .lo{
+            width: 250px;
+        } 
+    }
