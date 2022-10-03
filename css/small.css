@@ -98,6 +98,6 @@ header h1{
     margin: 0;
     margin-left: 40px;
 }
-h1, h2,h3{
+body,h1, h2,h3{
     font-family: 'Rock Salt', 'roboto','sans-serif';
 }
