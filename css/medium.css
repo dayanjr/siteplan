@@ -1,10 +1,46 @@
 /* 35em is also 560px (if basefont is 16px) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
 @media only screen and (min-width: 35rem) {
         nav ul {
             display: flex;
             margin-left: 2%;
         }
-    
+        :root{
+            --primary-color:  #087f8c ;
+            --secondary-color:  #5aaa95 ;
+            --accent1-color:  #86a873;
+            --accent2-color: #ffd60a;
+        }
+        body{
+            background-color: var(--secondary-color);
+        }
+        header,footer{
+            background-color: var(--primary-color);
+        }
+        tr{
+           display: table-row;
+        }
+        th{
+            background-color: rgb(150, 150, 150);
+            padding: 20px;
+        }
+        .primary{
+            background-color: var(--primary-color);
+            padding: 20px;
+        }
+        .secondary{
+            background-color: var(--secondary-color);
+        }
+        .accent1{
+        background-color: var(--accent1-color);
+        }
+        .accent2{
+        background-color: var(--accent2-color);
+        }
+        main{
+            background: whitesmoke;
+            padding: 20px;
+        }
     
         nav ul li a{padding: .5rem 1rem;}
         header h1{
@@ -13,4 +49,10 @@
         .lo{
             width: 250px;
         } 
+        body,h1,h2{
+            font-family: 'Rock Salt', 'roboto','sans-serif';
+        }
+        p,li{
+            font-family: 'roboto', 'Rock Salt', 'sans-serif';  
+        }
     }

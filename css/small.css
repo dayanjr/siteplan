@@ -1,13 +1,53 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+}
+:root{
+    --primary-color:  #087f8c ;
+    --secondary-color:  #5aaa95 ;
+    --accent1-color:  #86a873;
+    --accent2-color: #ffd60a;
+}
+body{
+    background-color: var(--secondary-color);
+}
+header,footer{
+    background-color: var(--primary-color);
+}
+tr{
+   display: grid;
+   grid-template-columns: auto auto;
+
+}
+th{
+    background-color: rgb(150, 150, 150);
+    padding: 20px;
+}
+.primary{
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+.secondary{
+    background-color: var(--secondary-color);
+}
+.accent1{
+background-color: var(--accent1-color);
+}
+.accent2{
+background-color: var(--accent2-color);
+}
+
+h1, h2{
+    font-family: 'Rock Salt', 'roboto','sans-serif';
+    color: var(--accent2-color);
+}
+p,li{
+    font-family: 'roboto', 'Rock Salt', 'sans-serif';  
 }
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
 display: grid;
 grid-template-columns: 75px auto;
 }
@@ -45,16 +85,19 @@ nav ul li.active a {
 }
 
 main {
-    padding: 0 2%;
+    padding: 20px;
     min-height: 10rem;
+    background: whitesmoke;
 }
 
 footer {
-    background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
 }
 header h1{
     margin: 0;
     margin-left: 40px;
+}
+h1, h2,h3{
+    font-family: 'Rock Salt', 'roboto','sans-serif';
 }
